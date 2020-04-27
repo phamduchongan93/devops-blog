@@ -14,7 +14,7 @@ Build Full Devops Stacks
    :maxdepth: 2
    :caption: Contents
 
-   docs/docs.rst
+   docsguide/docs.rst
    pipeline/pipeline.rst
    
 Getting Started
