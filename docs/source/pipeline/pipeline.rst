@@ -1,7 +1,7 @@
 Setting up pipeline
 -------------------
 
-Ideally, containerize the pipeline for portability. Because I need my apps to work on variety of enviroment, I would put the code in a container.  However, there are scenarios where I found the need to run on a dedicated host or VM so that I can perform full integration testing. This would help to see how the new code affect my system. 
+Generally, containerizing the pipeline is good for portability. Because most of the time II need my apps to work on variety of enviroment, I would put the code in a container.  However, there are scenarios where I found the need to run on a dedicated host or VM. This is because I can perform full integration testing. This would help to see how the new code affect my system. 
 
 .. toc: 
    :maxdept: 2 
