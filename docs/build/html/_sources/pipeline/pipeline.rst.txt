@@ -11,6 +11,8 @@ Requirement
 -----------
  - Setting VM for pipeline 
  - Containerize Jenkin pipeline
+ - Optional: domain name
+   - Openvpn certificate for portforwarding 
 
 Installation
 ------------
@@ -19,6 +21,7 @@ Installation
 
 Usuage
 -------
+
 
 Tesing
 ------

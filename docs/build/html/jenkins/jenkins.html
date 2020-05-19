@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Setting up pipeline &mdash; Build DevOps Stack  documentation</title>
+  <title>Configuring Mana &mdash; Build DevOps Stack  documentation</title>
   
 
   
@@ -35,8 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Configuring Mana" href="../jenkins/jenkins.html" />
-    <link rel="prev" title="Setting up Documentation" href="../docs/docs.html" /> 
+    <link rel="prev" title="Setting up pipeline" href="../pipeline/pipeline.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -85,16 +84,16 @@
 <li class="toctree-l1"><a class="reference internal" href="../docs/docs.html">Setting up Documentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../docs/docs.html#requirement">Requirement</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../docs/docs.html#getting-started">Getting Started</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Setting up pipeline</a></li>
-<li class="toctree-l1"><a class="reference internal" href="#requirement">Requirement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pipeline/pipeline.html">Setting up pipeline</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pipeline/pipeline.html#requirement">Requirement</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pipeline/pipeline.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pipeline/pipeline.html#usuage">Usuage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pipeline/pipeline.html#tesing">Tesing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Configuring Mana</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#add-features">Add Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#installation">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#usuage">Usuage</a></li>
 <li class="toctree-l1"><a class="reference internal" href="#tesing">Tesing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../jenkins/jenkins.html">Configuring Mana</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../jenkins/jenkins.html#add-features">Add Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../jenkins/jenkins.html#installation">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../jenkins/jenkins.html#usuage">Usuage</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../jenkins/jenkins.html#tesing">Tesing</a></li>
 </ul>
 
             
@@ -140,13 +139,13 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Setting up pipeline</li>
+      <li>Configuring Mana</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/pipeline/pipeline.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/jenkins/jenkins.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -159,18 +158,17 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="setting-up-pipeline">
-<h1>Setting up pipeline<a class="headerlink" href="#setting-up-pipeline" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="configuring-mana">
+<h1>Configuring Mana<a class="headerlink" href="#configuring-mana" title="Permalink to this headline">¶</a></h1>
 <p>Generally, containerizing the pipeline is good for portability. Because most of the time II need my apps to work on variety of enviroment, I would put the code in a container.  However, there are scenarios where I found the need to run on a dedicated host or VM. This is because I can perform full integration testing. This would help to see how the new code affect my system.</p>
 </div>
-<div class="section" id="requirement">
-<h1>Requirement<a class="headerlink" href="#requirement" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="add-features">
+<h1>Add Features<a class="headerlink" href="#add-features" title="Permalink to this headline">¶</a></h1>
 <blockquote>
 <div><ul class="simple">
-<li>Setting VM for pipeline</li>
+<li>Webhook to trigger the build</li>
 <li>Containerize Jenkin pipeline</li>
-<li>Optional: domain name
-- Openvpn certificate for portforwarding</li>
+<li>Set up notification system for monitoring</li>
 </ul>
 </div></blockquote>
 </div>
@@ -207,10 +205,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../jenkins/jenkins.html" class="btn btn-neutral float-right" title="Configuring Mana" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="../docs/docs.html" class="btn btn-neutral float-left" title="Setting up Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../pipeline/pipeline.html" class="btn btn-neutral float-left" title="Setting up pipeline" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

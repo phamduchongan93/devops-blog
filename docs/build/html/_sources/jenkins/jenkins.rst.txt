@@ -1,4 +1,4 @@
-Setting up pipeline
+Configuring Mana
 -------------------
 
 Generally, containerizing the pipeline is good for portability. Because most of the time II need my apps to work on variety of enviroment, I would put the code in a container.  However, there are scenarios where I found the need to run on a dedicated host or VM. This is because I can perform full integration testing. This would help to see how the new code affect my system. 
@@ -7,12 +7,11 @@ Generally, containerizing the pipeline is good for portability. Because most of 
    :maxdept: 2 
    :caption: Contents:
 
-Requirement
+Add Features 
 -----------
- - Setting VM for pipeline 
+ - Webhook to trigger the build  
  - Containerize Jenkin pipeline
- - Optional: domain name
-   - Openvpn certificate for portforwarding 
+ - Set up notification system for monitoring 
 
 Installation
 ------------
@@ -32,3 +31,4 @@ Tesing
 3. Assure that jenkin ports on the local host not overlapping with other services port. 
 
 - Test the backup compatibility by exporting it to a new host. 
+

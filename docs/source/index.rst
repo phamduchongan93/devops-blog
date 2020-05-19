@@ -16,10 +16,11 @@ Build Full Devops Stacks
 
    docs/docs.rst
    pipeline/pipeline.rst
+   jenkins/jenkins.rst
    
 Getting Started
 ===============
-- Ideally, I want to build Devlops Stacks Wear I can improve my deployment for production. Aside from this benefit, I want certain testing applied during CI/CD in which can narrow down the issue.
+- Ideally, I want to build Devlops Stacks in which   I can improve my deployment for production. Aside from this benefit, I want certain testing applied during CI/CD in which can narrow down the issue.
 - There are couple things I commited to in order to produce the devops stacks. First of all, apps are deployed over container. 
 - I also utilize gits as main drive for gitops operation.
 
